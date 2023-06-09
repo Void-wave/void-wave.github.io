@@ -1,7 +1,5 @@
 ---
-layout: collection
-collection: shipped_titles
-entries_layout: grid
+layout: single
 author_profile: true
 ---
 
