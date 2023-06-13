@@ -41,6 +41,7 @@ collections_dir: collections
 collections:
   shipped_titles:
     output: true
+    permalink: /titles/:title
 
 include:
  - _pages
@@ -64,6 +65,14 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+
+defaults:
+  # _shipped_titles
+  - scope:
+      path: ""
+      type: shipped_titles
     values:
       layout: single
 
