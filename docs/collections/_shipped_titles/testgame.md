@@ -7,9 +7,9 @@ studio: Test Studio
 platforms: Test Console
 publisher: Hello
 engine: Hello
+website: http://www.example.com/
 ---
 
 ## {{page.role}}
-
 
 Test game for test site.

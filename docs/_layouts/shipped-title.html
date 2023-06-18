@@ -1,6 +1,8 @@
 ---
 layout: single
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div>
     <table  id="shipped-title">
         <tr>
@@ -8,7 +10,7 @@ layout: single
             <td>{{page.release-date}}</td>
         </tr>
         <tr>
-            <th>development Studio</th>
+            <th>Development Studio</th>
             <td>{{page.studio}}</td>
         </tr>    
         <tr>
@@ -24,6 +26,9 @@ layout: single
             <td>{{page.engine}}</td>
         </tr>    
     </table>
-    </div>
+</div>
+
+<a href="{{page.website}}" class="btn btn--primary">{{page.title}} Website <i class="fa fa-external-link"></i></a>
 
 {{content}}
+
