@@ -6,51 +6,14 @@ release-date: January 1999
 
 ## {{page.role}}
 
-Release Date
->    
-<table id="#shipped-title">
-    <tr>
-        <th>
-            Release Date
-        </th>
-        <td>
-            Hello
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Development Studio
-        </th>
-        <td>
-            Hello again
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Publisher
-        </th>
-        <td>
-            Hello again
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Platform(s)
-        </th>
-        <td>
-            Hello again
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Engine
-        </th>
-        <td>
-            Hello again
-        </td>
-    </tr>    
+<table  id="shipped-title">
+{% assign row = site.data.gamedata.testgame[0] %}
+    {% for pair in row %}
+        <tr>
+            <th> {{pair[0]}}</th>
+            <td> {{pair[1]}}</td>
+        </tr>
+    {% endfor %}
 </table>
-
->   
 
 Test game for test site.

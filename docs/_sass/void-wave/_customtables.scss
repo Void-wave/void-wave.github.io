@@ -2,7 +2,7 @@
    TABLES
    ========================================================================== */
 
-   table {
+   #shipped-title {
     display: block;
     margin-bottom: 1em;
     width: 100%;
@@ -10,30 +10,32 @@
     font-size: $type-size-6;
     border-collapse: collapse;
     overflow-x: auto;
-  
+    
     & + table {
-      margin-top: 1em;
+        margin-top: 1em;
     }
-  }
-  
-  thead {
+}
+
+#shipped-title thead {
     background-color: $border-color;
+    border: 0;
   }
   
-  th {
+  #shipped-title th {
     padding: 0.2em;
     font-weight: bold;
     text-align: left;
   }
   
-  td {
+  #shipped-title td {
     padding: 0.2em;
+    border: 0;
   }
   
-  tr,
+  #shipped-title tr,
   td,
   th {
     vertical-align: middle;
   }
 
-  tr:nth-child(even) {background-color: #f2f2f2;}
+  #shipped-title tr:nth-child(even) {background-color: #f2f2f2;}
