@@ -1,7 +1,12 @@
 ---
 layout: single
+author_profile: true
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<p>{{page.excerpt}}</p>
+
+<iframe width="560" height="315" src="{{page.trailer}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <div>
     <table  id="shipped-title">
@@ -30,5 +35,5 @@ layout: single
 
 <a href="{{page.website}}" class="btn btn--primary">{{page.title}} Website <i class="fa fa-external-link"></i></a>
 
+<h2>{{page.role}}</h2>
 {{content}}
-

@@ -18,15 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: #Philippa Moore - Animation Programmer
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+# Site Settings
+locale                   : "en-UK"
+title                    : Philippa Moore
+title_separator          : "-"
+subtitle                 : "Animation Programming Portfolio"
+name                     : &name "Philippa Moore" # &name is a YAML anchor which can be *referenced later
+description              : &description "Personal site and animation programming porfolio."
+# email: your-email@example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://void-wave.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+url: "https://pmoore.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  void-wave
 
 # Build settings
@@ -35,6 +37,23 @@ minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+atom_feed:
+  hide: true
+
+
+# Site Author
+author:
+  name             :  "About Me" # *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/AuthorHeadshot.jpg"
+  bio              : "Animation Programmer at Frontier Developments, with 5 years professional games industry experience.\n
+  
+  I like roller derby, turtlenecks and inverse kinematics. "
+  location         : "Cambridge, England"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/philippa-moore-979a4a10b/"
 
 collections_dir: collections  
 

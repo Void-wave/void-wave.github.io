@@ -3,5 +3,5 @@ layout: single
 author_profile: true
 ---
 
-Hi
+Hi! This site is under construction.
 
