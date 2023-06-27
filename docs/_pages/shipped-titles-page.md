@@ -6,4 +6,4 @@ author_profile: true
 permalink: /shipped-titles/
 ---
 
-Hello! This page is also under construction.
+These are the shipped titles I've worked on.
