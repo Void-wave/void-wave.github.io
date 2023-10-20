@@ -12,6 +12,7 @@ trailer: https://www.youtube.com/embed/G1mnyi2xZIA
 excerpt: Whimsical theme park builder and management sim.
 ---
 
-- Part of the gameplay programming team for the duration of the development cycle porting Planet Coaster to consoles
+- Part of the development team porting Planet Coaster (2016) to consoles, adding new UI, tutorial levels and reworked control scheme
+- Worked on gameplay code for the duration of the development cycle
 - Responsible for initial setup for controller support and input handling
-- Fully overhauled the Planet Coaster game camera system with new dynamic focusing logic  
+- Fully overhauled the original Planet Coaster PC game camera system with new dynamic focusing logic  

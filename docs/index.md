@@ -19,7 +19,7 @@ Most of my work is in **C++** but I also use **Lua** for high-level scripting.
 Outside of work I've dabbled in **Python**, **C#**, **html and css**, and use of the **Unity** engine for hobby projects. 
 
 Systems I have experience with include:
-- Inverse kinematics systems, including solving algorithm implementation 
+- Inverse kinematics systems, including implementation of solving algorithms 
 - Physics-driven chain simulations
 - Ragdoll physics, including seamless transitions from physics-driven ragdolls back into authored animation poses
 - Animation blend trees
