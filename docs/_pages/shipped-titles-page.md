@@ -6,4 +6,4 @@ author_profile: true
 permalink: /shipped-titles/
 ---
 
-These are the shipped titles I've worked on.
+Commercial titles I've shipped. 

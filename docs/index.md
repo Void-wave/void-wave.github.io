@@ -27,7 +27,7 @@ Systems I have experience with include:
 
 
 ## Dev Diaries and LiveStreams
-I love talking about my work! Here you can find some of the dev diaries and livestreams that I've been featured on doing just that:
+I enjoy talking about my work and I'm a frequent participant in dev diaries and livestreams. Here are a few of them:
 
 ### [Age of Sigmar: Realms of Ruin](/titles/RealmsOfRuin)
 <div class="video-grid-container">

@@ -1,0 +1,28 @@
+---
+layout: single
+author_profile: true
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<p>{{page.excerpt}}</p>
+
+
+<div>
+    <table  id="personal-project">
+        <tr>
+            <th>Release Date</th>
+            <td>{{page.release-date}}</td>
+        </tr> 
+        <tr>
+            <th>Engine</th>
+            <td>{{page.engine}}</td>
+        </tr>
+        <tr>
+            <th>Role</th>
+            <td>{{page.role}}</td>
+        </tr>               
+    </table>
+</div>
+
+<iframe width="552" height="167" src="{{page.linkback}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    <a href="{{page.website}}">{{page.title}}by {{page.authors}}</a></iframe>

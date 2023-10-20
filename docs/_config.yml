@@ -61,6 +61,9 @@ collections:
   shipped_titles:
     output: true
     permalink: /titles/:title
+  personal_projects:
+    output: true
+    permalink: /projects/:title
 
 include:
  - _pages
@@ -94,6 +97,14 @@ defaults:
       type: shipped_titles
     values:
       layout: single
+
+defaults:
+  #_personal_projects
+  - scope:
+      path: ""
+      type: personal_projects
+    values:
+      layout: single 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

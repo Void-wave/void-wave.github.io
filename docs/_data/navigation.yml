@@ -2,6 +2,8 @@
 main:
   - title: "Shipped Titles"
     url: /shipped-titles/
+  - title: "Personal Projects"
+    url: /personal-projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
