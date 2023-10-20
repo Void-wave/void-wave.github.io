@@ -8,7 +8,7 @@ author_profile: true
 
 # Hello!
 
-I'm Philippa, an Animation Programmer based in Cambridge, UK. 
+I'm Philippa, an animation programmer working in the games industry, based in Cambridge UK. 
 In July 2018 I graduated from the University of Manchester with a joint honours masters in Maths and Physics (MMath&Phys).  
 
 I've been working full time in the video game industry since September 2018. 
