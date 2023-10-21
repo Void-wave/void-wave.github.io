@@ -9,13 +9,16 @@ author_profile: true
 # Hello!
 
 I'm Philippa, an animation programmer working in the games industry, based in Cambridge UK. 
-In July 2018 I graduated from the University of Manchester with a joint honours masters in Maths and Physics (MMath&Phys).  
 
 I've been working full time in the video game industry since September 2018. 
 I currently work at Frontier Developments, where I have experience in both engine and gameplay development.
 
+# Education
+I have a joint honours masters in Maths and Physics (MMath & Phys) from the University of Manchester.
+I graduated in July 2018.  
+
 # Development Experience
-Most of my work is in **C++** but I also use **Lua** for high-level scripting.
+Most of my work is in **C++**, and **Lua** for high-level scripting.
 Outside of work I've dabbled in **Python**, **C#**, **html and css**, and use of the **Unity** engine for hobby projects. 
 
 Systems I have experience with include:
@@ -51,4 +54,4 @@ I enjoy talking about my work and I'm a frequent participant in dev diaries and 
 
 ## Other Interests
 
-Outside of work I play roller derby for my local league, and I'm a keen crafter. I like to sew and knit clothes and plushies, I've dabbled in candle making and embroidery and yarn spinning - basically I just like to make things. 
+Outside of work I play roller derby for my local league, and I'm a keen crafter. I like to sew and knit clothes and plushies, I've dabbled in candle making and embroidery and yarn spinning - I just like to make things. 
